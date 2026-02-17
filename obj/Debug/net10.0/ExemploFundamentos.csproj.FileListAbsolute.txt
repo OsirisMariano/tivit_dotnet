@@ -1,0 +1,13 @@
+/home/pc/Desktop/project/DIO/tivit/bin/Debug/net10.0/ExemploFundamentos
+/home/pc/Desktop/project/DIO/tivit/bin/Debug/net10.0/ExemploFundamentos.deps.json
+/home/pc/Desktop/project/DIO/tivit/bin/Debug/net10.0/ExemploFundamentos.runtimeconfig.json
+/home/pc/Desktop/project/DIO/tivit/bin/Debug/net10.0/ExemploFundamentos.dll
+/home/pc/Desktop/project/DIO/tivit/bin/Debug/net10.0/ExemploFundamentos.pdb
+/home/pc/Desktop/project/DIO/tivit/obj/Debug/net10.0/ExemploFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+/home/pc/Desktop/project/DIO/tivit/obj/Debug/net10.0/ExemploFundamentos.csproj.CoreCompileInputs.cache
+/home/pc/Desktop/project/DIO/tivit/obj/Debug/net10.0/ExemploFundamentos.sourcelink.json
+/home/pc/Desktop/project/DIO/tivit/obj/Debug/net10.0/ExemploFundamentos.dll
+/home/pc/Desktop/project/DIO/tivit/obj/Debug/net10.0/refint/ExemploFundamentos.dll
+/home/pc/Desktop/project/DIO/tivit/obj/Debug/net10.0/ExemploFundamentos.pdb
+/home/pc/Desktop/project/DIO/tivit/obj/Debug/net10.0/ExemploFundamentos.genruntimeconfig.cache
+/home/pc/Desktop/project/DIO/tivit/obj/Debug/net10.0/ref/ExemploFundamentos.dll
