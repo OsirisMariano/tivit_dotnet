@@ -1,21 +1,76 @@
 ﻿using ExemploFundamentos.Models;
 
-int quantidadeEmEstoque = 10;
-int quantidadeCompra = 4;
-bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-Console.WriteLine("Quantidade em estoque: " + quantidadeEmEstoque);
-Console.WriteLine("Quantidade desejada para compra: " + quantidadeCompra);
-Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+bool choveu = false;
+bool estaTarde = false;
 
-if (possivelVenda)
+if (!choveu && estaTarde)
 {
-  Console.WriteLine("Compra realizada com sucesso!");
+  Console.WriteLine("Vou pedalar.");
 }
 else
 {
-  Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
+  Console.WriteLine("Vou pedalar um outro dia.");
 }
+
+
+
+
+
+
+
+
+// bool possuiPresencaMinima = true;
+// double media = 7.5;
+
+// if (possuiPresencaMinima && media >= 7)
+// {
+//   Console.WriteLine("Aprovado!");
+// }
+// else
+// {
+//   Console.WriteLine("Reprovado!");
+// }
+
+
+
+
+
+
+// bool ehMaiorDeIdade = false;
+// bool possuiAtorizacaoDoResponsavel = false;
+
+// if (ehMaiorDeIdade || possuiAtorizacaoDoResponsavel)
+// {
+//   Console.WriteLine("Entrada autorizada.");
+// }
+// else
+// {
+//   Console.WriteLine("Entrada negada.");
+// }
+
+
+
+
+
+
+
+// int quantidadeEmEstoque = 10;
+// int quantidadeCompra = 4;
+// bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+
+// Console.WriteLine("Quantidade em estoque: " + quantidadeEmEstoque);
+// Console.WriteLine("Quantidade desejada para compra: " + quantidadeCompra);
+// Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
+
+// if (possivelVenda)
+// {
+//   Console.WriteLine("Compra realizada com sucesso!");
+// }
+// else
+// {
+//   Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque.");
+// }
 
 
 
