@@ -1,17 +1,97 @@
 ﻿using ExemploFundamentos.Models;
+string opção;
+bool exibirMenu = true;
 
-
-bool choveu = false;
-bool estaTarde = false;
-
-if (!choveu && estaTarde)
+while (exibirMenu)
 {
-  Console.WriteLine("Vou pedalar.");
+  Console.Clear();
+  Console.WriteLine("Digite a sua opção: ");
+  Console.WriteLine("1 - Cadastrar cliente");
+  Console.WriteLine("2 - Listar clientes");
+  Console.WriteLine("3 - Apagar cliente");
+  Console.WriteLine("4 - Sair");
+
+  opção = Console.ReadLine();
+
+  switch (opção)
+  {
+    case "1":
+      Console.WriteLine("Cadastro de cliente");
+      break;
+    case "2":
+      Console.WriteLine("Listar clientes");
+      break;
+    case "3":
+      Console.WriteLine("Apagar cliente");
+      break;
+    case "4":
+      Console.WriteLine("Saindo...");
+      exibirMenu = false;
+      break;
+    default:
+      Console.WriteLine("Opção inválida, tente novamente.");
+      break;
+  }
 }
-else
-{
-  Console.WriteLine("Vou pedalar um outro dia.");
-}
+
+// int soma = 0, numero = 0;
+// do
+// {
+//   Console.WriteLine("Digite um número (0 para parar): ");
+//   numero = Convert.ToInt32(Console.ReadLine());
+
+//   soma += numero;
+
+// } while (numero != 0);
+
+// Console.WriteLine("A soma dos números digitados é: " + soma);
+
+
+
+
+
+
+// int numero = 5;
+// int contador = 1;
+
+// while (contador <= 10)
+// {
+//   Console.WriteLine($"{contador}º Execução: {numero} x {contador} = {numero * contador}");
+//   contador++;
+
+//   if (contador == 6)
+//     break;
+// }
+
+
+// int numero = 5;
+
+// for (int contador = 0; contador <= 10; contador++)
+// {
+//   Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+
+// }
+
+
+
+
+
+
+
+
+
+
+// bool choveu = false;
+// bool estaTarde = false;
+
+// if (!choveu && estaTarde)
+// {
+//   Console.WriteLine("Vou pedalar.");
+// }
+// else
+// {
+//   Console.WriteLine("Vou pedalar um outro dia.");
+// }
 
 
 
